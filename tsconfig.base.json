@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@atarax-prototypes/product-list": ["libs/product-list/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

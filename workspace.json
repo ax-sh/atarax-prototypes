@@ -1,6 +1,7 @@
 {
   "version": 2,
   "projects": {
+    "product-list": "libs/product-list",
     "prototypes": "apps/prototypes"
   }
 }
