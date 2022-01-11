@@ -1,7 +1,19 @@
 import './ProductList.module.scss';
+import faker from 'faker';
 
 /* eslint-disable-next-line */
 export interface ProductListProps {}
+
+function getFakeProduct() {
+  const name = faker.commerce.productName(),
+    href = faker.random,
+    imageSrc = faker.image.fashion(),
+    imageAlt = faker.commerce.productAdjective(),
+    price = faker.commerce.price(1000, 5000000),
+    color = faker.commerce.color();
+
+  return { id: 1, name, href, imageSrc, imageAlt, price, color };
+}
 
 const products = [
   {
@@ -14,6 +26,7 @@ const products = [
     price: '$35',
     color: 'Black',
   },
+  getFakeProduct(),
   // More products...
 ];
 
