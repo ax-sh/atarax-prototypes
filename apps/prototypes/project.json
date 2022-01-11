@@ -35,7 +35,7 @@
       "options": {
         "outputPath": "dist/apps/prototypes",
         "baseHref": "/",
-        "configFile": "@nxext/vite/plugins/vite",
+        "configFile": "apps/prototypes/vite.config.js",
         "frameworkConfigFile": "@nxext/react/plugins/vite"
       },
       "configurations": {
